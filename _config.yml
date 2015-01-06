@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            I AM FRANTZ
 locale:           en_US
 url:              
 
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Frantz Lacarriere
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  bio: "Mostly odd but I can even.  Web Developer.  Flatiron Alum.  Adult Babysitter."
+  email:
+  disqus-shortname:
+  twitter: ___Frantz___
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: FrantzLacarriere
+  stackoverflow: http://stackoverflow.com/users/2640353/frantz
+  linkedin: frantzlacarriere
   instagram: #username
   lastfm: #username
   tumblr: #username
