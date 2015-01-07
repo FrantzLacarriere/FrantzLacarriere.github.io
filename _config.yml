@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:            I AM FRANTZ
+title:            Frantz Lacarriere
 locale:           en_US
-url:              
-
+url: http://FrantzLacarriere.github.io
+url: iamfrankie.me
 
 # Jekyll configuration
 
