@@ -10,6 +10,4 @@ image:
   creditlink:
 ---
 
-<p>I am a bouncer turned programmer.  I wish I had a cooler origin story, one in which I get bitten by a radioactive Donald Knuth, but I do not.  I just always had an interest in technology which eventually turned into a fever for programming.  This fervor eventually brought me to the Flatiron School</p>  
-
-<p>Hopefully I can help others in my journey of learning to code with this blog.<p>
+<p>I am a bouncer turned programmer.  I wish I had a cooler origin story, one in which I get bitten by a radioactive Donald Knuth, but I do not.  I just always had an interest in technology which eventually turned into a fever for programming.  This fervor eventually brought me to the Flatiron School.  Hopefully I can help others in my journey of learning to code with this blog.</p>
