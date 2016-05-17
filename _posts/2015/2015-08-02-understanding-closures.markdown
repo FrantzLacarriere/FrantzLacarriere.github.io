@@ -6,7 +6,7 @@ date: "2015-9-2 09:12"
 Like most things in Javascript, closures can appear more difficult to grok than they actually are.  At its root, a closure is a function within another function. Lets demonstrate this with code.
 
 ```
-function foo(name){
+function foo(name) {
     var greeting = "sup";
 
     return function bar(place){
@@ -23,7 +23,7 @@ Again, you may be asking yourself "why is this even important?" What makes closu
 ```
 var me = foo("Frankie");
 
-me("planet"); // This will return "Frankie says sup planet"
+me("Earth"); // This will return "Frankie says sup Earth"
 
 ```
 The Javascript engine knows that in order for the bar function to run at a future time that it will need both the greeting variable and the name parameter within the foo function.  So it allows bar to inspect its environment and closes over the variables that it needs to remember for future use.  The references to these variables are closed in a special data structure that can only be accessed by the Javascript runtime itself.
