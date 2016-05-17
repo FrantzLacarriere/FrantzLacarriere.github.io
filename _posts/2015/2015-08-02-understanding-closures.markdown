@@ -18,6 +18,7 @@ function foo(name) {
 
 Voila! That's a closure. But what makes a closure so special, let alone one of Javascript's most powerful features? The magic lies in the access afforded to the inner bar function.  Not only does the inner function bar have access to its own scope chain (all the variables within its curly bracket), but it also has access to both outer function foo and the global's scope chain.  Whenever you use variables outside your immediate lexical scope you are creating closures.
 
+
 Again, you may be asking yourself "why is this even important?" What makes closures interesting is that you can use the variables of your outer function even after that outer function has returned. Lets go back to our above code and assign foo to the variable me.
 
 ```
@@ -27,6 +28,7 @@ me("Earth"); // This will return "Frankie says sup Earth"
 
 ```
 The Javascript engine knows that in order for the bar function to run at a future time that it will need both the greeting variable and the name parameter within the foo function.  So it allows bar to inspect its environment and closes over the variables that it needs to remember for future use.  The references to these variables are closed in a special data structure that can only be accessed by the Javascript runtime itself.
+
 
 As one begins to understand closures you may make the mistake in assuming that closures store copies of its outer function's variables. When in fact, they only maintain references to the outer functions variables. The cool factor behind this feature becomes more apparent when the value of the outer function's variable changes before the closure is called. Lets look at some more code to hone in this point.
 
